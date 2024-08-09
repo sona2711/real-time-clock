@@ -4,6 +4,7 @@
 
 .clock-wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -13,8 +14,8 @@
 
 .clock {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
     border: 5px solid #00d5ff31;
     margin: auto;
@@ -38,4 +39,12 @@
 
 .sec-hand {
     height: 4px;
+}
+
+.time-wrapper {
+    padding-bottom: 50px;
+}
+.time{
+    font-size: 64px;
+    color: #fafcfaa6;
 }
